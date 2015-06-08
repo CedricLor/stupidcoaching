@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'answer', to: 'coaching#answer'
+  get 'ask',    to: 'coaching#ask'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
